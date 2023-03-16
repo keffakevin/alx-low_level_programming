@@ -3,7 +3,7 @@
 
 /**
  * main -This is a prograam main function
- * Return:0 (Return nothing)
+ * Return:0 (Successg)
  */
  int main (){
  
