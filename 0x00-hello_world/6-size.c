@@ -1,19 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
-*main - This is a prograam print a line with puts function
-*Return: 0 (Success)
-*/
+ * main -This is a program that print a line with print function
+ * Return: 0 (Success)
+ */
 int main(void)
 {
-int a;
-char b;
+char a;
+int b;
 long int c;
 long long int d;
 float e;
-printf("Size of float: %zu byte(s)\n", (unsigned long)sizeof(a)); 
-printf("Size of int: %zu byte(s)\n", (unsigned long)sizeof(b));
-printf("Size of int: %zu byte(s)\n", (unsigned long)sizeof(c));
-printf("Size of float: %zu byte(s)\n", (unsigned long)sizeof(d));
-printf("Size of float: %zu byte(s)\n", (unsigned long)sizeof(d));
+prtintf("Size of Charactor: %lu byte(s)\n", (unsigned long)sizeof(a));
+prtintf("Size of Charactor: %lu byte(s)\n", (unsigned long)sizeof(b));
+prtintf("Size of Charactor: %lu byte(s)\n", (unsigned long)sizeof(c));
+prtintf("Size of Charactor: %lu byte(s)\n", (unsigned long)sizeof(d));
+prtintf("Size of Charactor: %lu byte(s)\n", (unsigned long)sizeof(e));
 return (0);
 }
