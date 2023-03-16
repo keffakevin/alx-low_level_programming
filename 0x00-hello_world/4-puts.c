@@ -1,8 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
- * main - This is a prograam main function
+ * main - This is a prograam print a line with puts function
  * Return: 0 (Success)
  */
  int main (void)
