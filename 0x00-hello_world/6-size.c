@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * * main - This is a prograam print a line with puts function
- * * Return: 0 (Success)
- * */
+ * main - This is a prograam print a line with puts function
+ * Return: 0 (Success)
+ */
 int main(void)
 {
 	printf("Size of char:%zu byte(s)", sizeof(char));
