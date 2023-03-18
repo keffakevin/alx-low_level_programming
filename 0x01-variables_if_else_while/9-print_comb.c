@@ -13,13 +13,11 @@ int n;
 /* your code goes there */
 for (n = 0; n < 10; n++)
 {
-if (n == 9)
 putchar(n + '0');
-else
+if (n != 9)
 {
-putchar(n + '0');
-putchar(',');
-putchar(' ');
+	putchar(',');
+	putchar(' ');
 }
 }
 return (0);
