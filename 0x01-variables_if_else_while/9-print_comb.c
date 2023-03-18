@@ -20,7 +20,6 @@ else
 putchar(n + '0');
 putchar(',');
 putchar(' ');
-putchar(' ');
 }
 }
 return (0);
