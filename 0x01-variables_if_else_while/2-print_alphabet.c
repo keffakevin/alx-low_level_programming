@@ -6,9 +6,8 @@
 int main(void)
 {
 int i;
-char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 for (i = 'a' ; i <= 'z' ; i++)
-putchar(alp[i]);
+putchar(i);
 putchar('\n');
 return (0);
 }
