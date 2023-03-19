@@ -20,11 +20,13 @@ for (n = 0; n < 10 ; n++)
 	{
 	putchar(n + '0');
 	putchar(a + '0');
+	if (n + a != 17)
+	{
 putchar(';');
 putchar(' ');
 	}
 	}
-putchar (n + '0');
+	}
 }
 putchar ('\n');
 return (0);
