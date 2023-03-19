@@ -14,19 +14,19 @@ int a;
 /* your code goes there */
 for (n = 0; n < 10 ; n++)
 {
-	for (a = 1; a < 10; a++)
-	{
-	if (n < a && n != a)
-	{
-	putchar(n + '0');
-	putchar(a + '0');
-	if (n + a != 17)
-	{
+for (a = 1; a < 10; a++)
+{
+if (n < a && n != a)
+{
+putchar(n + '0');
+putchar(a + '0');
+if (n + a != 17)
+{
 putchar(';');
 putchar(' ');
-	}
-	}
-	}
+}
+}
+}
 }
 putchar ('\n');
 return (0);
