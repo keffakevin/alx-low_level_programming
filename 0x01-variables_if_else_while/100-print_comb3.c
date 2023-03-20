@@ -22,7 +22,7 @@ putchar(n + '0');
 putchar(a + '0');
 if (n + a != 17)
 {
-putchar(';');
+putchar(',');
 putchar(' ');
 }
 }
