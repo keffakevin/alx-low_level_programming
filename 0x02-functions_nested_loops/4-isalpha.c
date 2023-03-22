@@ -3,7 +3,7 @@
  * _isalpha - function that print alahabetic
  * @c:parameter description
  * Return:1 and return 0 otherwise
- */
+ i*/
 int _isalpha(int c)
 {
 if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
