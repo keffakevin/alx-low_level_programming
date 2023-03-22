@@ -8,5 +8,6 @@ void print_alphabet(void) /** function that print alphabet */
 char k;
 for (k = 'a'; k < 'z'; k++)
 _putchar (k);
-_putchar('\n' '\n');
+_putchar('\n');
+
 }
