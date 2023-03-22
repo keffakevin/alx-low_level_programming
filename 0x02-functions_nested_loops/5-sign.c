@@ -1,8 +1,8 @@
 #include "main.h"
- /**
- * print_sign - function that print alahabetic
- * @c:parameter description
- * Return:1 and return 0 otherwise
+/**
+ * print_sign - function that print signs
+ * @n:function parameter
+ * Return:1 , 0 and -1 otherwise
  */
 int print_sign(int n)
 {
