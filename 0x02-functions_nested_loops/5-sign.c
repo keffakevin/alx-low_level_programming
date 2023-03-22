@@ -4,7 +4,7 @@
  * @c:parameter description
  * Return:1 and return 0 otherwise
  */
-int print_sign(int n);
+int print_sign(int n)
 {
 if (n > 0)
 {
