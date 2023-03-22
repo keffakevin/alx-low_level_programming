@@ -10,5 +10,6 @@ int k;
 k = a % 10;
 if (a < 0)
 k = -k;
+_putchar (k + '0');
 return (k);
 }
