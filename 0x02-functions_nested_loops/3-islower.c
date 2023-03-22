@@ -1,8 +1,9 @@
-#include "main.h"
+#include"main.h"
+
 /**
-*_islower -function that print lower case
-*c paratmeter to be printed
-* Return:1 is there is a upper case and 0 otherwise
+* _islower -function to print lower case
+* @c:parameter description
+* Return:1 if it is a lower case 0 otherwise.
 */
 int _islower(int c)
 {
