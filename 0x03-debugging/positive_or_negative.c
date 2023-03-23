@@ -1,5 +1,4 @@
 #include"main.h"
-#include <stdio.h>
 /**
  * positive_or_negative - function that print postive or negative
  * @i:parameter description
