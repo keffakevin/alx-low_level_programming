@@ -2,13 +2,13 @@
 
 /**
  * _isupper - function that print alahabetic
- * @c:parameter description
+ * @n:parameter description
  * Return:1 and return 0 otherwise
  */
 
-int _isupper(int c)
+int _isupper(int n)
 {
-if (c <= 65 && c <= 98)
+if (n <= 65 && n <= 90)
 {
 return (1);
 }
