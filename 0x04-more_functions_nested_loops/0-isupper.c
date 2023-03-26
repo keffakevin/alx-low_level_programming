@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * _isupper - function that print alahabetic
- * @n:parameter description
- * Return:1 and return 0 otherwise
+ * _isupper - uppercase letters
+ * @c: char to check
+ *
+ * Return: 0 or 1
  */
 
-int _isupper(int n)
-{
-if (n <= 65 && n <= 90)
-{
-return (1);
-}
-return (0);
-}
+int _isupper(int c)
+	{
+		if (c >= 'A' && c <= 'Z')
+			return (1);
+		else
+			return (0);
+	}
