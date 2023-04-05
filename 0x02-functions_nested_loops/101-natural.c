@@ -8,6 +8,7 @@ int main(void)
 {
 	int sum3 = 0, sum7 = 0;
 	int i;
+
 	for (i = 0; i < 1024; i++)
 	{
 		if (i % 3 == 0)
