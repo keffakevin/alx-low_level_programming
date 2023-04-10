@@ -16,7 +16,7 @@ return (-1);
 }
 a = atoi(argv[1]);
 b = atoi(argv[2]);
-sum = a * b;
+sum = a *b;
 printf("%d\n", sum);
 return (0);
 }
