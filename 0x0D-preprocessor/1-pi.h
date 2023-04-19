@@ -1,8 +1,6 @@
-#ifndef MYCONSTANTS_H
-#define MYCONSTANTS_H
-
-#include <stdlib.h>
+#ifndef PI_H
+#define PI_H
 
 #define PI 3.14159265359
 
-#endif /* MYCONSTANTS_H */
+#endif /* PI_H */
