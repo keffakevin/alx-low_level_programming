@@ -3,24 +3,33 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * free_list - frees a linked list
- * @head: pointer to the head of the list
- *
- * This function frees all the memory allocated for a linked list.
- * It iterates through the list and frees each node, until the end
- * of the list is reached (when the next pointer of a node is NULL).
- *
- * Return: void
+ * free_list - Frees a linked list_t list and adds a new node at the beginning
+ * @head: Pointer to the first node of the list
  */
+
 void free_list(list_t *head)
 {
-    list_t *current = head;
-    list_t *next;
+	list_t *temp;
 
-    while (current != NULL)
-    {
-        next = current->next;
-        free(current);
-        current = next;
-    }
+	/* Traverse the list and free each node */
+	while (head != NULL)
+	{
+	temp = head;
+	head = head->next;
+	free(temp);
+	}
+
+    /* Add a new node at the beginning of the list */
+	list_t *new_node = malloc(sizeof(list_t));
+
+	if (new_node == NULL)
+	{
+/* Handle memory allocation error */
+	fprintf(stderr, "Error: Unable to allocate memory\n");
+	exit(EXIT_FAILURE);
+	}
+
+	new_node->data = 0;
+	new_node->next = head;
+	head = new_node;
 }
