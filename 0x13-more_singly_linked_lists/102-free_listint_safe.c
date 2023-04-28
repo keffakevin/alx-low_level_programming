@@ -1,5 +1,7 @@
 #include "lists.h"
-
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 /**
  * free_listint_safe - Frees a listint_t list safely
  * @h: pointer to a pointer to the head of the list
